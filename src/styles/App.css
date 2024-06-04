@@ -1,0 +1,77 @@
+/*Navbar*/
+.navBg {
+  background-color: #7CFC00; /* Color verde pasto */
+}
+
+.navBg .navbar-brand,
+.navBg .nav-link {
+  color: black !important; /* Asegúrate de que el texto sea visible */
+}
+
+.navBg .nav-link:hover {
+  color: white !important; /* Opcional: Cambia el color al pasar el mouse */
+}
+
+.navBg .btn-outline-dark {
+  color: black;
+  border-color: black;
+}
+
+.navBg .btn-outline-dark:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+  /*Login*/
+  .custom-bg {
+    background-image: url('../assets/especias.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  
+  .login-container {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegura que los bordes redondeados funcionen correctamente */
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo transparente con opacidad */
+    padding: 2rem;
+    text-align: center; /* Centra el contenido */
+    opacity: 0.8; /* Ajusta la opacidad del contenedor según sea necesario */
+  }
+  
+  .fixed-size {
+    width: 400px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Asegura que la altura se ajuste automáticamente */
+  }
+  
+  .login-image {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Asegúrate de que sea igual al width para hacerla circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionarse */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-bottom: 1rem; /* Añade espacio debajo de la imagen */
+  }
+  
+  .login-form {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1rem;
+  }
+  
+  .toggle-btn:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  
